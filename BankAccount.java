@@ -11,4 +11,14 @@ public class BankAccount {
     return balance ;
   }
 
+  public double getAccountID() {
+    return accountID ;
+  }
+
+  public boolean deposit(double amount) {
+    if (amount > 0) balance = balance + amount;
+    if (amount > 0) return true;
+    else return false;
+  }
+
 }
