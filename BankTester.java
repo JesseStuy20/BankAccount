@@ -15,7 +15,8 @@ public class BankTester {
     System.out.println(b1.withdraw(612.79)) ;
     System.out.println(b1.withdraw(41.50)) ;
     System.out.println(b1.getBalance()) ;
-    
+    System.out.println("toString test") ;
+    System.out.println(b1.toString()) ;
   }
 
 }
