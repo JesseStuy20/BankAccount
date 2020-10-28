@@ -17,6 +17,14 @@ public class BankAccount {
     return accountID ;
   }
 
+  public void setPassword(String newPass) {
+    password = newPass ;
+  }
+
+  public String getPassword() {
+    return password ;
+  }
+
   public boolean deposit(double amount) {
     if (amount > 0) balance = balance + amount;
     if (amount > 0) return true;
@@ -29,4 +37,5 @@ public class BankAccount {
     else return false;
   }
 
+  
 }
